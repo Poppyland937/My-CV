@@ -146,6 +146,9 @@ ul li {
   width: 80%;
   background-color: #1c3684;
 }
+.skill-label {
+  color: #fff;
+}
 
 footer {
   text-align: center;
