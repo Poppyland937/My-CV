@@ -3,24 +3,25 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: #5c6897;
 }
 
 header {
   text-align: center;
-  background: #f9f9f9;
+  background: #b488a0;
   padding: 2rem 0;
 }
 
 header h1 {
   margin: 0;
   font-size: 2.5rem;
-  color: #333;
+  color: #a41262;
 }
 
 header p {
   margin: 0;
   font-size: 1.2rem;
-  color: #666;
+  color: #fff;
 }
 
 main {
@@ -35,7 +36,7 @@ section {
 
 h2 {
   font-size: 1.8rem;
-  color: #444;
+  color: #bb789d;
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
 }
@@ -51,9 +52,104 @@ ul li {
   padding: 0.5rem;
   border-radius: 5px;
 }
+#about p {
+  color: #fff;
+}
+.job h3 {
+  color: #fff;
+  font-size: 20px;
+}
+.job-name {
+  color: #ae85ba;
+  font-size: 17px;
+}
+.job-role {
+  color: #d3cece;
+}
+#education p {
+  color: #fff;
+}
+#contact p {
+  color: #fff;
+}
+#contact p a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 25px;
+  width: 100%;
+}
+
+.skill-fill {
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.html-fill {
+  width: 70%;
+  background-color: #d8b4f8;
+}
+
+.css-fill {
+  width: 50%;
+  background-color: #85c1e9;
+}
+
+.javascript-fill {
+  width: 10%;
+  background-color: #f4d03f;
+}
+
+.figma-fill {
+  width: 20%;
+  background-color: #3d478d;
+}
+.communication-fill {
+  width: 80%;
+  background-color: #4c271c;
+}
+.research-fill {
+  width: 60%;
+  background-color: #87679e;
+}
+.technical-fill {
+  width: 70%;
+  background-color: #9ba4c1;
+}
+.customer-fill {
+  width: 85%;
+  background-color: #b9326c;
+}
+.problem-fill {
+  width: 75%;
+  background-color: #6a74a7;
+}
+.organisational-fill {
+  width: 80%;
+  background-color: #1c3684;
+}
 
 footer {
   text-align: center;
-  background: #f4f4f9;
+  background: #bb789d;
   padding: 1rem;
+  color: #fff;
 }
